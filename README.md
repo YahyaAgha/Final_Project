@@ -46,8 +46,8 @@ from tkinter import ttk, messagebox
 CurrencyConverter Class
 
 class CurrencyConverter:
-    def __init__(self, api_key):
-        self.api_key = api_key
+    def __init__(self, api_key):\n
+        self.api_key = api_key\n
         self.api_url = f"https://v6.exchangerate-api.com/v6/{self.api_key}/latest/USD"
         self.rates = self._fetch_rates()
         self.history = []
