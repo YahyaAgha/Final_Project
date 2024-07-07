@@ -1,9 +1,0 @@
-Here's the `requirements.txt` for your project.
-
-
-```
-requests==2.26.0
-tkinter  # Note: This is included for documentation purposes; it comes with the standard Python library.
-```
-
-Although `tkinter` is part of the Python standard library and doesn't need to be installed via `pip`
